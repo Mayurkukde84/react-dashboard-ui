@@ -1,0 +1,42 @@
+
+.logo{
+    padding:5px;
+    margin-bottom:20px;
+    text-align:center;
+}
+.user-img{
+    margin-bottom: 10px;
+}
+.user-img img{
+    border-radius: 50%;
+    width: 80px;
+}
+.user-profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.list-services{
+    line-height: 3rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.icon-list p{
+    align-items: center;
+    cursor: pointer;    
+
+}
+.icon-list p span{
+    margin: 0 15px;
+}
+.icon-list p:hover{
+    background-color: rgb(206, 206, 228);
+}
+.dashboard{
+   font-style: Bold;
+   font-weight: 900;
+  }
+  .dashboard{
+    background-color: rgb(220, 220, 245);
+  }
