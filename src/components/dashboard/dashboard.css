@@ -1,53 +1,43 @@
-
-
-
-.price{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40%;
-    
-}
-
-
 .dashboard-container{
     display: grid;
-    grid-template-rows: 0.3fr 1fr 1fr 1fr ;
-    height: 100%;
-  
+    grid-template-rows: 0.2fr 0.8fr 1fr 1fr;
+ height:fit-content;
 }
 .dashbord-title{
-    padding:8px;
-    margin-bottom:12px;
+    padding: 5px;
 }
+
 .card-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    padding: 1rem;
-    width: auto;
-    height: auto;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  padding: 1rem;
+  gap: 1rem;
 }
-.card{
-    
-    background-color: black;
-    color: white;
-    border-radius: 10%;
-   
-  
+.card-item{
+    background-color: #e5dad4;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+   border-radius: 1rem;
 }
 
 .top-heading{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-   align-items: center;
-   justify-content: space-between;
-}
-.card-item{
-display: flex;
-flex-direction: column;
-align-content: space-between;
-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.spending-statistics{
+    padding: 1rem;
+}
+.latest-order{
+    padding: 1rem;
+}
+.active-card{
+    background-color: black;
+    color: white;
+}
