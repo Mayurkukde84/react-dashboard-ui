@@ -18,10 +18,8 @@ const Dashboard = () => {
         <div className="dashbord-title">
           <h3>Dashboard</h3>
         </div>
-        
-        <div className="card-container">
-         
 
+        <div className="card-container">
           <div className="card ">
             <div className="card-item active-card">
               <div className="top-heading">
@@ -48,10 +46,7 @@ const Dashboard = () => {
                 <h5>Total Customer</h5>
                 <div className="circle">
                   <div style={{ width: 35 }}>
-                    <CircularProgressbar
-                      value={50}
-                      text={`$50%`}
-                    />
+                    <CircularProgressbar value={50} text={`$50%`} />
                   </div>
                 </div>
               </div>
@@ -68,10 +63,7 @@ const Dashboard = () => {
                 <h5>Total Profit</h5>
                 <div className="circle">
                   <div style={{ width: 35 }}>
-                    <CircularProgressbar
-                      value={40}
-                      text={`$40%`}
-                    />
+                    <CircularProgressbar value={40} text={`$40%`} />
                   </div>
                 </div>
               </div>
@@ -84,7 +76,15 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="spending-statistics">
-          <h1>spending statistics</h1>
+          <div className="spending-heading">
+            <h4>Spending Statistics</h4>
+            <div className="spending-button">
+            <button>Day</button>
+            <button>Week</button>
+            <button>Month</button>
+            </div>
+           
+          </div>
         </div>
         <div className="latest-order">
           <h1>latest order</h1>

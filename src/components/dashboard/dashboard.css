@@ -18,6 +18,7 @@
     color: rgb(0, 0, 0);
     padding: 15px;
    border-radius: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .top-heading{
@@ -33,6 +34,20 @@
 }
 .spending-statistics{
     padding: 1rem;
+}
+.spending-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.spending-button{
+display: flex;
+gap: 0.5rem;
+}
+.spending-button button{
+    width: 54px;
+    height: 24px;
+    border-radius: 0.3rem;
+    cursor: pointer;
 }
 .latest-order{
     padding: 1rem;
