@@ -2,6 +2,7 @@ import "./dashboard.css";
 import React, { useEffect, useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import BrushBarChart from './BrushBarChart'
 const Dashboard = () => {
   const [percentage, setPercentage] = useState(0);
 
@@ -83,11 +84,15 @@ const Dashboard = () => {
             <button>Week</button>
             <button>Month</button>
             </div>
-           
+          
+          </div>
+          <div className="spending-chart">
+          <BrushBarChart />
           </div>
         </div>
         <div className="latest-order">
-          <h1>latest order</h1>
+          <h4>latest order</h4>
+          
         </div>
       </div>
     </>

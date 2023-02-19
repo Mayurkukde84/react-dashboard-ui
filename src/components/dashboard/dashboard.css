@@ -1,6 +1,6 @@
 .dashboard-container{
     display: grid;
-    grid-template-rows: 0.2fr 0.8fr 1fr 1fr;
+    grid-template-rows: auto ;
  height:fit-content;
 }
 .dashbord-title{
@@ -12,6 +12,7 @@
   grid-template-columns:  1fr 1fr 1fr;
   padding: 1rem;
   gap: 1rem;
+  height: fit-content;
 }
 .card-item{
     background-color: #e5dad4;
@@ -35,6 +36,7 @@
 .spending-statistics{
     padding: 1rem;
 }
+
 .spending-heading{
     display: flex;
     justify-content: space-between;
@@ -49,6 +51,7 @@ gap: 0.5rem;
     border-radius: 0.3rem;
     cursor: pointer;
 }
+
 .latest-order{
     padding: 1rem;
 }
