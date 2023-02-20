@@ -59,3 +59,24 @@ gap: 0.5rem;
     background-color: black;
     color: white;
 }
+.latest-order{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-order button{
+    width: 54px;
+    height: 24px;
+    border-radius: 0.3rem;
+}
+@media screen and (min-width:1000px){
+ .spending-chart{
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+ 
+}
+.table{
+    padding: 7px;
+}

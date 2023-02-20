@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import BrushBarChart from './BrushBarChart'
+import DenseTable from "./DenseTable";
 const Dashboard = () => {
   const [percentage, setPercentage] = useState(0);
 
@@ -91,9 +92,14 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="latest-order">
-          <h4>latest order</h4>
+          <h4>Latest Order</h4>
+          <button>View All</button>
           
         </div>
+        <div className="table">
+        <DenseTable />
+        </div>
+        
       </div>
     </>
   );

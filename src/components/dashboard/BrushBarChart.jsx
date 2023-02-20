@@ -22,14 +22,15 @@ const data = [
 
 export default function BrushBarChart() {
   return (
-<ResponsiveContainer aspect={3}>
+
     <BarChart
-    
+    width={680}
+    height={200}
       data={data}
       margin={{
         top: 15,
         
-        bottom: 2,
+        bottom: 1,
       }}
     >
       <CartesianGrid strokeDasharray="3 3 3" />
@@ -40,6 +41,6 @@ export default function BrushBarChart() {
       <Bar dataKey="uv" fill="#BFAFA6" />
       <Bar dataKey="rv" fill="#9D877B" />
     </BarChart>
-    </ResponsiveContainer>
+
   );
 }
