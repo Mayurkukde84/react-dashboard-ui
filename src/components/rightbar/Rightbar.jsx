@@ -1,10 +1,12 @@
 import React from "react";
 import "./rightbar.css";
+import {TiFolderDelete} from 'react-icons/ti'
 const Rightbar = () => {
   return (
     <div className="right-container">
       <nav>
         <input placeholder="Search..." />
+        <TiFolderDelete />
       </nav>
       <div className="map">
         <h3>Customer by country</h3>
